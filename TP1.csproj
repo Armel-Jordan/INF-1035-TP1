@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>TP1</AssemblyName>
+    <RootNamespace>TP1</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Bck\**" />
+    <Compile Remove="Temp\**" />
+    <EmbeddedResource Remove="Bck\**" />
+    <EmbeddedResource Remove="Temp\**" />
+    <None Remove="Bck\**" />
+    <None Remove="Temp\**" />
+  </ItemGroup>
+
+</Project>
